@@ -3,6 +3,7 @@ export default {
   name: 'App',
   data() {
     return {
+      saluto: 'Hello world!'
     }
   },
   methods: {
@@ -12,6 +13,7 @@ export default {
 </script>
 
 <template>
+ <h1> {{  saluto  }}</h1>
 </template>
 
 <style scoped>
