@@ -3,7 +3,7 @@ export default {
   name: 'App',
   data() {
     return {
-      saluto: 'Hello world!'
+      saluto: "La mia prima app con Vite!"
     }
   },
   methods: {
